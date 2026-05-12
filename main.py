@@ -98,3 +98,6 @@ while run:
 
 # Al salir del ciclo, cerrar recursos
 quit()
+
+
+# actualizando hosting
