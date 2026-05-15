@@ -23,7 +23,7 @@ class GameSprite(sprite.Sprite):
         self.rect.y = y
         self.speed = speed
 
-    def reset(self, surface):
+    def reset(self, surface=window):
         """Dibuja el sprite en su posición actual."""
         surface.blit(self.image, (self.rect.x, self.rect.y))
 
@@ -99,5 +99,3 @@ while run:
 # Al salir del ciclo, cerrar recursos
 quit()
 
-
-# actualizando hosting
